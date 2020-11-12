@@ -4,7 +4,8 @@ import main from '../images/main.jpg';
 const Picture = props => {
     return (
         <>
-            <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" width="25%">
+        <div width="200" style={{float: "left", marginLeft: "80px"}}>
+            <svg width="350" height="auto" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <pattern id="img" patternUnits="userSpaceOnUse" width="200" height="200">
                 <image 
@@ -14,15 +15,18 @@ const Picture = props => {
                   height="110" 
                   className="image" 
                   alt="Main"
-                  style={{
-                      float: "left",
-                  }}/>
+                />
               </pattern>
             </defs>
             <polygon 
                 points="50 1 95 25 95 75 50 99 5 75 5 25"
                 fill="url(#img)"/>
             </svg>
+            <div className="info">
+                <h1>Micah Lund</h1>
+                <p>Technical Developer</p>
+            </div>
+        </div>
         </>
     )
 }
