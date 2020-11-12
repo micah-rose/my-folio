@@ -10,7 +10,7 @@ const Quotes = props => {
 
                 <br />
                 <ol className="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                 </ol>
@@ -43,14 +43,14 @@ const Quotes = props => {
                 </a>
 
                 <a
-                  class="right carousel-control"
+                  className="right carousel-control"
                   href="#myCarousel"
                   role="button"
                   data-slide="next">
                 <span
-                  class="glyphicon glyphicon-chevron-right"
+                  className="glyphicon glyphicon-chevron-right"
                   aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span className="sr-only">Next</span>
                 </a>
             </div>
         </>
