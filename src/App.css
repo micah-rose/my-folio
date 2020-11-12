@@ -20,10 +20,6 @@ p {
   font-size: 16px;
 }
 
-.margin {
-  margin-bottom: 45px;
-}
-
 .bg-1 { 
   background-color: #7a6586; /* Lavender */
   color: #ffffff;
@@ -49,15 +45,64 @@ p {
   padding-bottom: 70px;
 }
 
-/* .header-msg {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; 
-} */
+.picture {
+  float: left; 
+  margin: auto;
+}
+
+.info h1 {
+  font-size: 50px;
+}
+
+.header-stuff {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.header-msg {
+  font-size: 200px;
+}
+
+@media (max-width: 1493px) {
+  .header-msg{
+    font-size: 175px
+  }
+}
+
+@media (max-width: 1369px) {
+  .header-msg{
+    font-size: 150px
+  }
+}
+
+@media (max-width: 1236px) {
+  .header-msg{
+    font-size: 125px
+  }
+}
+
+@media (max-width: 1106px) {
+  .picture {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .header-stuff {
+    align-items: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .header-msg{
+    font-size: 100px
+  }
+}
+
+@media (max-width: 600px) {
+  .header-msg{
+    font-size: 90px
+  }
+}
 
 .navbar {
   padding-top: 15px;
@@ -73,11 +118,8 @@ p {
   color: #5a2e3e !important;
 }
 
-.carousel-caption h4 {
-  color: #fff !important;
-}
 @media (max-width: 600px) {
-  .carousel-caption {
+  #myCarousel {
     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
   }
 }

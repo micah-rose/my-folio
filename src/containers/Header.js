@@ -8,7 +8,7 @@ const Header = props => {
     <>
         <div className="container-fluid bg-1 text-center">
             <Picture />
-            <div className="header-stuff" style={{display: "inline-block"}}>
+            <div className="header-stuff">
                 <HeaderMsg />
                 <Quotes />
             </div>

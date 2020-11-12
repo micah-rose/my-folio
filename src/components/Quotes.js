@@ -21,6 +21,7 @@ const Quotes = props => {
                         <h4 style={{fontSize: "20px", marginBottom: "30px"}}>"Life moves when you do."</h4>
                         <br />
                     </div>
+
                     <div className="item">
                         <h4 style={{fontSize: "20px", marginBottom: "30px"}}>"Practice makes progress, not perfect."</h4>
                         <br />

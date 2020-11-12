@@ -3,7 +3,7 @@ import React from 'react';
 const HeaderMsg = props => {
     return (
         <>
-            <h3 className="margin" style={{fontSize: "200px"}}>WELCOME</h3>
+            <h3 className="header-msg">WELCOME</h3>
         </>
     )
 }
