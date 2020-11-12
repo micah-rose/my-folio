@@ -1,18 +1,16 @@
 import React from 'react';
 import Picture from '../components/Picture';
+import Quotes from '../components/Quotes';
+import HeaderMsg from '../components/HeaderMsg';
 
 const Header = props => {
     return (
     <>
         <div className="container-fluid bg-1 text-center">
             <Picture />
-                        {/* <div>
-                <h1>Micah Lund</h1>
-                <p>Technical Developer</p>
-            </div> */}
-            <div className="header-stuff" style={{display: "inline-block", marginTop: "100px"}}>
-                <h3 className="margin" style={{fontSize: "200px"}}>WELCOME</h3>
-                <h3>This is my portfolio!</h3>
+            <div className="header-stuff" style={{display: "inline-block"}}>
+                <HeaderMsg />
+                <Quotes />
             </div>
         </div>
     </>

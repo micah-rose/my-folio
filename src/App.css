@@ -49,7 +49,7 @@ p {
   padding-bottom: 70px;
 }
 
-/* .header-stuff {
+/* .header-msg {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -71,4 +71,13 @@ p {
 
 .navbar-nav  li a:hover {
   color: #5a2e3e !important;
+}
+
+.carousel-caption h4 {
+  color: #fff !important;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
 }

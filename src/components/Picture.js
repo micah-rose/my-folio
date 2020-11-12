@@ -5,7 +5,9 @@ import Info from './Info';
 const Picture = props => {
     return (
         <>
-        <div width="200" style={{float: "left", marginLeft: "80px"}}>
+        <div 
+            width="200" 
+            style={{float: "left", marginLeft: "80px"}}>
             <svg 
                 width="350" 
                 height="auto" 
