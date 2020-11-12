@@ -63,6 +63,11 @@ p {
   font-size: 200px;
 }
 
+.item h4{
+  font-size: 20px; 
+  margin-bottom: 30px;
+}
+
 @media (max-width: 1493px) {
   .header-msg{
     font-size: 175px
