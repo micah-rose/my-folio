@@ -6,7 +6,7 @@ const Header = props => {
     <>
         <div className="container-fluid bg-1 text-center">
             <Picture />
-            <div className="header-stuff" style={{display: "inline-block", marginTop: "100px"}}>
+            <div className="header-stuff" style={{display: "inline-block", marginTop: "100px", marginLeft: "25px"}}>
                 <h3 className="margin" style={{fontSize: "200px"}}>WELCOME</h3>
                 <h3>This is my portfolio!</h3>
             </div>
