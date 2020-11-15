@@ -15,9 +15,11 @@ const Nav = props => {
                     </div>
                     <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="nav navbar-nav navbar-right">
-                            <li><a href="#">WHO</a></li>
-                            <li><a href="#">WHAT</a></li>
-                            <li><a href="#">WHERE</a></li>
+                            <li><a href="#">INTRO</a></li>
+                            <li><a href="#">HOBBIES/INTERESTS</a></li>
+                            <li><a href="#">MY STORY</a></li>
+                            <li><a href="#">SKILLS & PROJECTS</a></li>
+                            <li><a href="#">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
