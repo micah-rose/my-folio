@@ -48,6 +48,7 @@ p {
 .picture {
   float: left; 
   margin: auto;
+  margin-left: 100px;
 }
 
 .info h1 {
@@ -83,6 +84,10 @@ p {
 @media (max-width: 1236px) {
   .header-msg{
     font-size: 125px
+  }
+
+  .picture {
+    margin-left: 0px;
   }
 }
 
