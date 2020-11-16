@@ -13,16 +13,20 @@ const Page = () => {
                     <div className="col-sm-12">
                         <Intro />
                         <br />
-                        <hr />
-                        <Hobbies />
-                        <br />
-                        <Story />
-                        <br />
-                        <hr />
+                        <div className="hobby-story">
+                            <hr />
+                            <Hobbies />
+                            <br />
+                            <Story />
+                            <br />
+                            <hr />
+                        </div>
                         <Skills />
                         <br />
-                        <hr />
-                        <Contact />
+                        <div className="contact">
+                            <hr />
+                            <Contact />
+                        </div>
                     </div>
                 </div>
             </div>

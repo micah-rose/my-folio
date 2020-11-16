@@ -122,6 +122,7 @@ p {
   margin-bottom: 0;
   font-size: 12px;
   letter-spacing: 5px;
+  background-color: lightgray;
 }
 
 .navbar-nav  li a:hover {
