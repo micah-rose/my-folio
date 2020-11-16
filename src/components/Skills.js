@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Skills = props => {
+const Skills = () => {
     return (
         <>
             <h2>Skills & Projects</h2>

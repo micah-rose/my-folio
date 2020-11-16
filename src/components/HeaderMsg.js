@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeaderMsg = props => {
+const HeaderMsg = () => {
     return (
         <>
             <h3 className="header-msg">WELCOME</h3>

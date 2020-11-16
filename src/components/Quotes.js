@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Quotes = props => {
+const Quotes = () => {
     return (
         <>
             <div

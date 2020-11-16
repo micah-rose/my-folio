@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Intro = props => {
+const Intro = () => {
     return (
         <>
             <h2>Intro</h2>

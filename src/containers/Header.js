@@ -3,7 +3,7 @@ import Picture from '../components/Picture';
 import Quotes from '../components/Quotes';
 import HeaderMsg from '../components/HeaderMsg';
 
-const Header = props => {
+const Header = () => {
     return (
     <>
         <div className="container-fluid bg-1 text-center">

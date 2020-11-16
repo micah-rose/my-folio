@@ -2,7 +2,7 @@ import React from 'react';
 import main from '../images/main.jpg';
 import Info from './Info';
 
-const Picture = props => {
+const Picture = () => {
     return (
         <>
         <div className="picture"

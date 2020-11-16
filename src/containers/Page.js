@@ -5,7 +5,7 @@ import Story from '../components/Story';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
 
-const Page = props => {
+const Page = () => {
     return (
         <>
             <div id="about" className="container-fluid">

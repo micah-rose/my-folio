@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Nav = props => {
+const Nav = () => {
     return (
         <>
             <nav className="navbar navbar-default">

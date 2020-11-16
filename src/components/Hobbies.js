@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hobbies = props => {
+const Hobbies = () => {
     return (
         <>
             <h2>Hobbies/Interests</h2>
