@@ -2,6 +2,7 @@ import React from 'react';
 import Intro from '../components/Intro';
 import Hobbies from '../components/Hobbies';
 import Story from '../components/Story';
+import Skills from '../components/Skills';
 
 const Page = props => {
     return (
@@ -13,10 +14,7 @@ const Page = props => {
             <Intro />
             <Hobbies />
             <Story />
-          <h2>Skills & Projects</h2>
-          <p className="skills">
-            Skills & Projects content
-          </p>
+            <Skills />
           <br />
           <h2>Contact Me</h2>
           <p className="contact-me">
