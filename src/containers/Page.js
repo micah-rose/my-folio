@@ -8,26 +8,24 @@ import Contact from '../components/Contact';
 const Page = props => {
     return (
         <>
-
-<div id="about" className="container-fluid">
-      <div className="row">
-        <div className="col-sm-12">
-            <Intro />
-            <br />
-            <hr />
-            <Hobbies />
-            <br />
-            <Story />
-            <br />
-            <hr />
-            <Skills />
-            <br />
-            <hr />
-            <Contact />
-        </div>
-      </div>
-      </div>
-
+            <div id="about" className="container-fluid">
+                <div className="row">
+                    <div className="col-sm-12">
+                        <Intro />
+                        <br />
+                        <hr />
+                        <Hobbies />
+                        <br />
+                        <Story />
+                        <br />
+                        <hr />
+                        <Skills />
+                        <br />
+                        <hr />
+                        <Contact />
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
