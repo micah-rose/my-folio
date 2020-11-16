@@ -5,7 +5,6 @@ const Hobbies = props => {
         <>
             <h2>Hobbies/Interests</h2>
             <p className="hobbies">Hobbies/Interests content</p>
-            <br />
         </>
     )
 }

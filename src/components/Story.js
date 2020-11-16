@@ -7,8 +7,6 @@ const Story = props => {
             <p className="my-story">
                 My Story content
             </p>
-            <br />
-            <hr />
         </>
     )
 }

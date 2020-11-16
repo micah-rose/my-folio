@@ -12,10 +12,16 @@ const Page = props => {
       <div className="row">
         <div className="col-sm-12">
             <Intro />
+            <br />
+            <hr />
             <Hobbies />
+            <br />
             <Story />
+            <br />
+            <hr />
             <Skills />
-          <br />
+            <br />
+            <hr />
           <h2>Contact Me</h2>
           <p className="contact-me">
             Contact Me content

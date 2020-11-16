@@ -8,8 +8,6 @@ const Intro = props => {
             <p className="intro">
                 Introductory content
             </p>
-            <br />
-            <hr />
         </>
     )
 }
