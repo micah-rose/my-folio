@@ -3,6 +3,7 @@ import Intro from '../components/Intro';
 import Hobbies from '../components/Hobbies';
 import Story from '../components/Story';
 import Skills from '../components/Skills';
+import Contact from '../components/Contact';
 
 const Page = props => {
     return (
@@ -22,10 +23,7 @@ const Page = props => {
             <Skills />
             <br />
             <hr />
-          <h2>Contact Me</h2>
-          <p className="contact-me">
-            Contact Me content
-          </p>
+            <Contact />
         </div>
       </div>
       </div>
