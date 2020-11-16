@@ -1,6 +1,7 @@
 import React from 'react';
 import Intro from '../components/Intro';
 import Hobbies from '../components/Hobbies';
+import Story from '../components/Story';
 
 const Page = props => {
     return (
@@ -11,12 +12,7 @@ const Page = props => {
         <div className="col-sm-12">
             <Intro />
             <Hobbies />
-          <h2>My Story</h2>
-          <p className="my-story">
-            My Story content
-          </p>
-          <br />
-          <hr />
+            <Story />
           <h2>Skills & Projects</h2>
           <p className="skills">
             Skills & Projects content
