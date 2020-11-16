@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Intro from '../components/Intro';
 
 const Page = props => {
     return (
@@ -8,13 +8,7 @@ const Page = props => {
 <div id="about" className="container-fluid">
       <div className="row">
         <div className="col-sm-12">
-          <h2>Intro</h2>
-          <br />
-          <p className="intro">
-            Introductory content
-          </p>
-          <br />
-          <hr />
+          <Intro />
           <h2>
             Hobbies/Interests
           </h2>
