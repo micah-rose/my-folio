@@ -15,11 +15,11 @@ const Nav = () => {
                     </div>
                     <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="nav navbar-nav navbar-right">
-                            <li><a href="#">INTRO</a></li>
-                            <li><a href="#">HOBBIES/INTERESTS</a></li>
-                            <li><a href="#">MY STORY</a></li>
-                            <li><a href="#">SKILLS & PROJECTS</a></li>
-                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#intro">INTRO</a></li>
+                            <li><a href="#hobbies">HOBBIES/INTERESTS</a></li>
+                            <li><a href="#my-story">MY STORY</a></li>
+                            <li><a href="#skills">SKILLS & PROJECTS</a></li>
+                            <li><a href="#contact-me">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
