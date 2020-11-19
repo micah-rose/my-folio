@@ -138,3 +138,9 @@ p {
 .row {
   color: black;
 }
+
+.particles {
+  border: 5px solid lightgray;
+  height: 100%;
+  margin: auto;
+}
