@@ -140,7 +140,7 @@ p {
 }
 
 .particles {
-  border: 5px solid lightgray;
-  height: 100%;
-  margin: auto;
+  border-top: 25px solid lightgray;
+  border-bottom: 15px solid lightgray;
+  height: 388px;
 }

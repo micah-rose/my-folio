@@ -4,7 +4,6 @@ import Hobbies from '../components/Hobbies';
 import Story from '../components/Story';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
-import Canvas from '../components/Canvas';
 
 const Page = () => {
     return (
@@ -12,7 +11,6 @@ const Page = () => {
             <div id="about" className="container-fluid">
                 <div className="row">
                     <div className="col-sm-12">
-                        <Canvas />
                         <Intro />
                         <br />
                         <div className="hobby-story">

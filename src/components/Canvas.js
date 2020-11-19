@@ -6,23 +6,23 @@ const Canvas = props => {
     return (
         <Particles
             className="particles"
-            height="500px"
+            height="350px"
             margin="0"
             params={{
                 "particles": {
                     "color": 
                         {
-                        "value": "#28a678"
+                        "value": ["#8C3333", "#AEE0DC", "#C5AA74", "#c1a4d6", "#969494"]
                     },
                     "number": {
-                        "value": 2000
+                        "value": 7500
                     },
                     "size": {
                         "value": 10,
                         "random": true,
 	                    "anim": {
-	                    "speed": 50,
-	                    "size_min": 0.3
+	                    "speed": 10,
+	                    "size_min": 1
                         }
                     },
                     "line_linked": {
