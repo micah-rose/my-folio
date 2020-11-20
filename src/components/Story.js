@@ -4,9 +4,9 @@ const Story = () => {
     return (
         <>
             <h2 id="my-story">My Story</h2>
-            <p className="my-story">
-                My Story content
-            </p>
+            <div className="my-story">
+                <p>My Story content</p>
+            </div>
         </>
     )
 }

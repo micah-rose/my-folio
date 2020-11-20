@@ -148,17 +148,14 @@ p {
   font-size: 30px;
 }
 
-.intro p {
+.intro p, .hobbies p, .my-story p, .skills p, .text-center {
   font-size: 25px;
 }
+
 
 h2 {
   font-weight: bold;
   font-size: 40px;
-}
-
-.text-center em {
-  font-size: 25px;
 }
 
 .col-md-4 {
