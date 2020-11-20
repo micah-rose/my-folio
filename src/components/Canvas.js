@@ -15,7 +15,7 @@ const Canvas = props => {
                         "value": ["#8C3333", "#AEE0DC", "#C5AA74", "#c1a4d6", "#969494"]
                     },
                     "number": {
-                        "value": 1000
+                        "value": 1500
                     },
                     "size": {
                         "value": 10,
