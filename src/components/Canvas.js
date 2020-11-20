@@ -12,7 +12,7 @@ const Canvas = props => {
                 "particles": {
                     "color": 
                         {
-                        "value": ["#8C3333", "#AEE0DC", "#C5AA74", "#c1a4d6", "#969494"]
+                        "value": ["#5A2E3E", "#AEE0DC", "#C5AA74", "#C1A4D6", "#969494"]
                     },
                     "number": {
                         "value": 1500

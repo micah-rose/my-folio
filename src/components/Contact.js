@@ -9,11 +9,10 @@ const Contact = () => {
 
             <div className="row test">
               <div className="col-md-4">
-                <p><span className="glyphicon glyphicon-map-marker"></span> Utah, US</p>
-                <p><span className="glyphicon glyphicon-phone"></span> Phone: +00 1515151515</p>
-                <p><span className="glyphicon glyphicon-envelope"></span> Email: mail@mail.com</p>
+                <p><span className="glyphicon glyphicon-phone"></span>: <a href="https://github.com/micah-rose" target="_blank">GitHub</a></p>
+                <p><span className="glyphicon glyphicon-globe"></span>: <a href="https://www.linkedin.com/in/micah-lund-a75812178/" target="_blank">LinkedIn</a></p>
               </div>
-              <div className="col-md-8">
+              {/* <div className="col-md-8">
                 <div className="row">
                   <div className="col-sm-6 form-group">
                     <input className="form-control" id="name" name="name" placeholder="Name" type="text" required />
@@ -28,7 +27,7 @@ const Contact = () => {
                     <button className="btn pull-right" type="submit">Send</button>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </>

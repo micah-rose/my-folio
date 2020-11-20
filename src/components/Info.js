@@ -6,6 +6,7 @@ const Info = () => {
             <div className="info">
                 <h1>Micah Lund</h1>
                 <h3>Technical Developer</h3>
+                <p><span className="glyphicon glyphicon-map-marker"></span> Utah, US</p>
             </div>
         </>
     )
