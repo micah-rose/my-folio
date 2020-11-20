@@ -15,6 +15,8 @@ const Intro = () => {
                     I hope you enjoy the content I have put together, but don't get too attached. This is an ever growing and improving portfolio that I will be
                     <br />continuously expanding and downsizing to keep it modern, exciting, and relevant. 
                 </p>
+                <br />
+                <p>Fun Fact: the particle component you see above was inspired by a pair of yoga pants.</p>
             </div>
         </>
     )
