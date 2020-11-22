@@ -18,6 +18,7 @@ const Hobbies = () => {
                         <li>Road Trips</li>
                         <li>Watching Live Music</li>
                         <li>Snowboarding</li>
+                        <li>Camping/Hiking</li>
                     </u>
                 </div>
             </div>
