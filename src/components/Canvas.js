@@ -15,13 +15,13 @@ const Canvas = props => {
                         "value": ["#5A2E3E", "#AEE0DC", "#C5AA74", "#C1A4D6", "#969494"]
                     },
                     "number": {
-                        "value": 2500
+                        "value": 2000
                     },
                     "size": {
                         "value": 10,
                         "random": true,
 	                    "anim": {
-	                    "speed": 15,
+	                    "speed": 10,
 	                    "size_min": 1
                         }
                     },
@@ -32,7 +32,7 @@ const Canvas = props => {
                 "interactivity": {
                     "events": {
                         "onhover": {
-                            "enable": true,
+                            "enable": false,
                             "mode": "repulse"
                         }
                     }

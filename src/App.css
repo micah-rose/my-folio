@@ -3,14 +3,6 @@
 .App {
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
-  /* background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; */
 }
 
 body {
@@ -126,12 +118,17 @@ p {
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 5px;
   background-color: lightgray;
 }
 
-.navbar-nav li a:hover, .navbar-brand:hover {
+.navbar ul {
+  justify-content: end;
+  border: solid 2px red;
+}
+
+.navbar-nav li a:hover {
   color: #5a2e3e !important;
   font-weight: bold;
 }
@@ -147,12 +144,19 @@ p {
   font-size: 30px;
 }
 
-.intro p, .hobbies p, .my-story p, .skills p, .text-center {
+.intro p, .hobbies p, .skills p, .text-center {
   font-size: 25px;
 }
 
+.my-story {
+  display: inline-block;
+  width: 70%;
+  margin: auto;
+}
+
 .my-story p {
-  font-size: 20px;
+  font-size: 21px;
+  text-align: justify;
 }
 
 
@@ -185,7 +189,7 @@ h2 {
 
 .particles {
   background-color: #374653;
-  border-top: 25px solid lightgray;
+  border-top: 20px solid lightgray;
   border-bottom: 15px solid lightgray;
   height: 389px;
 }

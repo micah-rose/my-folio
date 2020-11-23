@@ -38,10 +38,12 @@ const Story = () => {
                 Just before my last semester of college started, I learned I was pregnant. This surprise eventually brought me feelings
                 of joy and adoration for what was to come, but if I am to be honest I didn't start off feeling that way. Initially, it
                 seemed as though everything I was working for in my career was pulled out from under me and the goals I set for myself 
-                all of a sudden became unreachable. In time, I came to realize my new role as a mother was going to give me more strength and determination than I've ever had 
-                before. Now, I have a beautiful little boy to join me on my adventures and give me an added purpose in life. After my maternity
-                leave was over and I had taken the time to be a mama, I picked myself up from where I left off in learning tech and continued my
-                ambition to understand how technology shapes our world.</p>
+                all of a sudden became unreachable. In time, I came to realize my new role as a mother was going to give me more strength 
+                and determination than I've ever had before. Now, I have a beautiful little boy to join me on my adventures and give me 
+                an added purpose in life. After my maternity leave was over and I had taken the time to be a mama, I picked myself up from 
+                where I left off and continued my ambition to gain proficieny as a full stack software engineer. Since then I have been 
+                following the self taught path to further my understanding of how to develop scalable, quality-driven software applications
+                and how the impact of technology shapes our world.</p>
             </div>
         </>
     )
