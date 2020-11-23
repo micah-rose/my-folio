@@ -193,3 +193,15 @@ h2 {
   border-bottom: 15px solid lightgray;
   height: 389px;
 }
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+  color: lightgray;
+}
+.carousel-indicators li {
+  border-color: lightgray;
+}
+.carousel-indicators li.active {
+  background-color: lightgray;
+}

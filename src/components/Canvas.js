@@ -15,13 +15,13 @@ const Canvas = props => {
                         "value": ["#5A2E3E", "#AEE0DC", "#C5AA74", "#C1A4D6", "#969494"]
                     },
                     "number": {
-                        "value": 2000
+                        "value": 1800
                     },
                     "size": {
                         "value": 10,
                         "random": true,
 	                    "anim": {
-	                    "speed": 10,
+	                    "speed": 12,
 	                    "size_min": 1
                         }
                     },
