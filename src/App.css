@@ -125,10 +125,9 @@ p {
 
 .navbar ul {
   justify-content: end;
-  border: solid 2px red;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav li a:hover, .navbar-brand:hover {
   color: #5a2e3e !important;
   font-weight: bold;
 }
@@ -163,6 +162,7 @@ p {
 h2 {
   font-weight: bold;
   font-size: 40px;
+  margin-bottom: 15px;
 }
 
 .col-md-4 {
