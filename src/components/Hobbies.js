@@ -4,7 +4,7 @@ const Hobbies = () => {
     return (
         <>
             <div className="container">
-                <h2 id="hobbies">Hobbies/Interests</h2>
+                <h1 id="hobbies">Hobbies/Interests</h1>
                 <div className="hobbies">
                     <u style={{
                         textDecoration: "none", 

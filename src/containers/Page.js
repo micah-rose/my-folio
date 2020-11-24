@@ -1,7 +1,5 @@
 import React from 'react';
-import Intro from '../components/Intro';
-import Hobbies from '../components/Hobbies';
-import Story from '../components/Story';
+import AboutMe from '../containers/AboutMe';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
 
@@ -11,16 +9,7 @@ const Page = () => {
             <div id="about" className="container-fluid">
                 <div className="row">
                     <div className="col-sm-12">
-                        <Intro />
-                        <br />
-                        <div className="hobby-story">
-                            <hr />
-                            <Hobbies />
-                            <br />
-                            <Story />
-                            <br />
-                            <hr />
-                        </div>
+                        <AboutMe />
                         <Skills />
                         <br />
                         <div className="contact">

@@ -3,7 +3,7 @@ import React from 'react';
 const Story = () => {
     return (
         <>
-            <h2 id="my-story">My Story</h2>
+            <h1 id="my-story">My Story</h1>
             <div className="my-story">
                 <p>In the year 2016 I decided to enroll myself back into the local community college and end what 
                 had been a six year haitus. I originally stopped going to school after realizing I didn't know 

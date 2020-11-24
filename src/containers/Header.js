@@ -1,18 +1,23 @@
 import React from 'react';
 import Picture from '../components/Picture';
-import Quotes from '../components/Quotes';
+import Intro from '../components/Intro';
 import HeaderMsg from '../components/HeaderMsg';
+import Canvas from '../components/Canvas';
 
 const Header = () => {
     return (
     <>
-        <div className="container-fluid bg-1 text-center">
+    <div className="header">
+        <Canvas />
+        <div className="container-fluid bg-1 text-center" id="header">
             <Picture />
             <div className="header-stuff">
                 <HeaderMsg />
-                <Quotes />
+                <br />
+                <Intro />
             </div>
         </div>
+    </div>
     </>
     )
 }

@@ -8,7 +8,7 @@ const Picture = () => {
         <div className="picture"
             width="200" >
             <svg 
-                width="350" 
+                width="500" 
                 height="100%" 
                 viewBox="0 0 100 100" 
                 version="1.1"

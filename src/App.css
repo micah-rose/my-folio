@@ -16,7 +16,6 @@ p {
 }
 
 .bg-1 { 
-  background-color: #7a6586; /* Lavender */
   color: #ffffff;
 }
 
@@ -35,36 +34,62 @@ p {
   color: #fff;
 }
 
+.bg-5 {
+    background-color: #7a6586; /* Lavender */
+    color: #ffffff;
+}
+
 .container-fluid {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
+/* Navigation Stuff ******************************************************************************/
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  letter-spacing: 5px;
+  background-color: lightgray;
+}
+
+.navbar-nav li a:hover, .navbar-brand:hover {
+  color: #5a2e3e !important;
+  font-weight: bold;
+}
+
+
+
+/* Header Stuff ************************************************************************************/
+
 .picture {
   float: left; 
   margin: auto;
-  margin-left: 100px;
+  margin-left: 75px;
 }
 
 .info h1 {
-  font-size: 50px;
+  font-size: 70px;
+}
+
+.info h3 {
+  font-size: 30px;
 }
 
 .info p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .header-stuff {
   display: inline-block;
+  margin-left: 30px;
 }
 
 .header-msg {
   font-size: 250px;
-}
-
-.item h4{
-  font-size: 30px; 
-  margin-bottom: 30px;
 }
 
 @media (max-width: 1493px) {
@@ -112,31 +137,31 @@ p {
   }
 }
 
-.navbar {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-  font-size: 20px;
-  letter-spacing: 5px;
-  background-color: lightgray;
+.particles {
+  background-color: #374653;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
-.navbar ul {
-  justify-content: end;
+#header {
+  position: absolute;
+  margin: 100px;
 }
 
-.navbar-nav li a:hover, .navbar-brand:hover {
-  color: #5a2e3e !important;
-  font-weight: bold;
+.header {
+  height: 911px;
+  position: relative;
+  margin: 0;
 }
 
-@media (max-width: 600px) {
-  #myCarousel {
-    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-  }
+
+/* Page Content ***************************************************************************************/
+.item h4{
+  font-size: 30px; 
+  margin-bottom: 30px;
 }
+
 
 .row {
   color: black;
@@ -198,21 +223,6 @@ h2 {
   text-decoration: none;
 }
 
-.particles {
-  background-color: #374653;
-  border-top: 20px solid lightgray;
-  border-bottom: 15px solid lightgray;
-  height: 389px;
-}
-
-.carousel-control.right,
-.carousel-control.left {
-  background-image: none;
-  color: lightgray;
-}
-.carousel-indicators li {
-  border-color: lightgray;
-}
-.carousel-indicators li.active {
-  background-color: lightgray;
+#about {
+  overflow: hidden;
 }
