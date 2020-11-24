@@ -154,10 +154,9 @@ p {
 }
 
 .my-story p {
-  font-size: 21px;
+  font-size: 23px;
   text-align: justify;
 }
-
 
 h2 {
   font-weight: bold;
@@ -173,18 +172,30 @@ h2 {
   text-decoration: none;
 }
 
+.col-sm-4 ul li {
+
+  color: black;
+  margin-right: 35px;
+  text-decoration: none;
+}
+
 .col-md-4 p {
   color: black;
   font-size: 25px;
 }
 
-.col-md-4 a:link, .col-md-4 a:visited{
+.col-md-4 a:link, 
+.col-md-4 a:visited, 
+.col-sm-4 a:link, 
+.col-sm-4 a:visited{
     color: black;
 }
 
-.col-md-4 a:hover {
+.col-md-4 a:hover, 
+.col-sm-4 a:hover {
   color: #5a2e3e !important;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .particles {
