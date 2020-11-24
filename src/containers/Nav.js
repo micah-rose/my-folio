@@ -5,17 +5,17 @@ const Nav = () => {
         <>
             <nav className="navbar navbar-default">
                 <div className="container">                    
-                <div className="navbar-header navbar-left">
+                <div className="navbar-header">
                         <button type="button" 
                             className="navbar-toggle" 
                             data-toggle="collapse" 
-                            data-target=".navbar-collapse">
-                        <span className="icon-bar"></span>
-                        <span className="icon-bar"></span>
-                        <span className="icon-bar"></span>
+                            data-target="#myNavbar">
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
                         </button>
+                    <a className="navbar-brand" href="#">MY FOLIO</a>
                 </div>
-                <a className="navbar-brand" href="#">MY FOLIO</a>
                     <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="nav navbar-nav navbar-right">
                             <li><a href="#about">ABOUT ME</a></li>

@@ -2,7 +2,7 @@ import './App.css';
 import Nav from './containers/Nav';
 import Header from './containers/Header';
 // import Page from './containers/Page';
-import Footer from './containers/Footer';
+// import Footer from './containers/Footer';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Nav />
         <Header />
         {/* <Page />*/}
-        <Footer /> 
+        {/* <Footer />  */}
     </div>
   );
 }

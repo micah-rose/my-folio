@@ -5,11 +5,8 @@ import Info from './Info';
 const Picture = () => {
     return (
         <>
-        <div className="picture"
-            width="200" >
-            <svg 
-                width="500" 
-                height="100%" 
+        <div className="picture">
+            <svg  
                 viewBox="0 0 100 100" 
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg">

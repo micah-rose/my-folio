@@ -7,17 +7,16 @@ import Canvas from '../components/Canvas';
 const Header = () => {
     return (
     <>
-    <div className="header">
+    <header className="header">
         <Canvas />
-        <div className="container-fluid bg-1 text-center" id="header">
+        <div className="container-fluid bg-1 text-center" id="header-content">
             <Picture />
-            <div className="header-stuff">
+            <div className="header-text">
                 <HeaderMsg />
-                <br />
                 <Intro />
             </div>
         </div>
-    </div>
+    </header>
     </>
     )
 }

@@ -6,7 +6,6 @@
 }
 
 body {
-  font: 20px Montserrat, sans-serif;
   line-height: 1.8;
   color: #f5f6f7;
 }
@@ -68,7 +67,12 @@ p {
 .picture {
   float: left; 
   margin: auto;
-  margin-left: 75px;
+  /* margin-left: 75px; DON'T THINK I NEED THIS*/
+}
+
+.picture svg {
+  width: 500px;
+  height: 100%;
 }
 
 .info h1 {
@@ -83,13 +87,106 @@ p {
   font-size: 25px;
 }
 
-.header-stuff {
+.header-text {
   display: inline-block;
   margin-left: 30px;
+  border: solid 2px yellow;
 }
+
+.particles {
+  background-color: #374653;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#header-content {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  border: solid 2px green;
+}
+
+/* .header {
+  /* height: 911px; */
+  /* position: relative; DON'T THINK I NEED THIS*/
+/* } */ 
 
 .header-msg {
   font-size: 250px;
+}
+
+.intro {
+  border: solid 2px red;
+  width: 900px;
+}
+
+.intro p {
+  font-size: 25px;
+}
+
+@media (max-width: 600px) {  /* THIS IS SO THE CONTENT LOOKS PRESENTABLE ON A MOBILE DEVICE*/
+  /* .header {
+    height: 100%;
+  } */
+  
+  .header-msg{
+    font-size: 70px;
+    width: 50%;
+    margin: 0;
+  }
+
+  .header-text {
+    margin-left: 0px;
+  }
+
+  .picture {
+    margin: auto;
+    width: 100%;
+  }
+
+  .picture svg {
+    width: 350px;
+    height: 100%;
+  }
+
+  .info h1 {
+    font-size: 50px;
+  }
+  
+  .info h3 {
+    font-size: 25px;
+  }
+  
+  .info p {
+    font-size: 20px;
+  }
+
+  .intro p {
+    width: 50%;
+    font-size: 17px;
+  }
+}
+
+/* ALL THIS BELOW WILL BE LOOKED AT LATER */
+/* @media (max-width: 1791) {  
+  .header-msg{
+    font-size: 150px
+  }
+
+  .picture {
+    width: 350px;
+    margin-left: 0px
+  }
+  
+  .intro p {
+    width: 50%;
+  }
+
+  svg {
+    width: 400;
+  }
 }
 
 @media (max-width: 1493px) {
@@ -129,31 +226,7 @@ p {
   .header-msg{
     font-size: 100px
   }
-}
-
-@media (max-width: 600px) {
-  .header-msg{
-    font-size: 90px
-  }
-}
-
-.particles {
-  background-color: #374653;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
-#header {
-  position: absolute;
-  margin: 100px;
-}
-
-.header {
-  height: 911px;
-  position: relative;
-  margin: 0;
-}
+} */
 
 
 /* Page Content ***************************************************************************************/
@@ -168,7 +241,7 @@ p {
   font-size: 30px;
 }
 
-.intro p, .hobbies p, .skills p, .text-center {
+.hobbies p, .skills p, .text-center {
   font-size: 25px;
 }
 
