@@ -45,8 +45,8 @@ p {
 
 /* Navigation Stuff ******************************************************************************/
 .navbar {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
@@ -113,7 +113,6 @@ p {
 }
 
 .intro {
-  /* border: solid 2px red; */
   text-align: center;
   margin: auto;
   background-color: rgb(211,211,211, 0.6);
