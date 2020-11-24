@@ -29,7 +29,7 @@ const Skills = () => {
                 <br />
                 <h1 style={{fontWeight: "bold"}}>My Computer Science Projects</h1>
                 <br />
-                <p style={{fontSize:"20px", marginBottom: "15px"}}>Click the below icons to display a list of courseworks for each section.</p>
+                <p style={{fontSize:"25px", marginBottom: "15px"}}>Click the below icons to display a list of courseworks for each section.</p>
                     <div class="row">
                         <div class="col-sm-4">
                           <a href="#demo" data-toggle="collapse">
@@ -37,13 +37,13 @@ const Skills = () => {
                           </a>
                           <div id="demo" class="collapse">
                             <ul style={{
-                        textDecoration: "none", 
-                        listStyleType: "none"}}>
-                            <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/tables/">YouTube Video Page</a></li>
-                            <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/image-map/">Image Map</a></li>
-                            <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/bootstrap-1/">Simply Me (Bootstrap)</a></li>
-                            <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/bootstrap-2/">Band (Bootstrap)</a></li>
-                          </ul>
+                                textDecoration: "none", 
+                                listStyleType: "none"}}>
+                                <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/tables/">YouTube Video Page</a></li>
+                                <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/image-map/">Image Map</a></li>
+                                <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/bootstrap-1/">Simply Me (Bootstrap)</a></li>
+                                <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/bootstrap-2/">Band (Bootstrap)</a></li>
+                            </ul>
                           </div>
                         </div>
                         <div class="col-sm-4">
@@ -52,11 +52,11 @@ const Skills = () => {
                           </a>
                           <div id="demo2" class="collapse">
                             <ul style={{
-                        textDecoration: "none", 
-                        listStyleType: "none"}}>
-                              <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/little-boxes/">Little Boxes</a></li>
-                              <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/pizza-2/">Pizza Parlor</a></li>
-                              <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/1430-midterm/">Eurypterids Midterm</a></li>
+                                textDecoration: "none", 
+                                listStyleType: "none"}}>
+                                <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/little-boxes/">Little Boxes</a></li>
+                                <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/pizza-2/">Pizza Parlor</a></li>
+                                <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/1430-midterm/">Eurypterids Midterm</a></li>
                             </ul>
                           </div>
                         </div>
@@ -66,18 +66,21 @@ const Skills = () => {
                             </a>
                             <div id="demo3" class="collapse">
                               <ul style={{
-                        textDecoration: "none", 
-                        listStyleType: "none"}}>
+                                textDecoration: "none", 
+                                listStyleType: "none"}}>
                                 <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/js-birthday/">Happy Birthday</a></li>
                                 <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/mad-lib/">Mad Libs</a></li>
                                 <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/lottery/">Lottery</a></li>
                                 <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/guess/">Guessing Game</a></li>
                                 <li><a target="_blank" href="https://micah-rose.github.io/rosegoldwebdesign/tic-tac-toe/">Tic Tac Toe</a></li>
                               </ul>
-                                    </div>
-                                </div>
                             </div>
                         </div>
+                    </div>
+                    <br />
+                <p style={{fontSize:"25px", marginBottom: "15px"}}>Here are some projects I wrote in Java and converted in JavaScript.</p>
+                <p>---Insert project links---</p>
+            </div>
         </>
     )
 }
