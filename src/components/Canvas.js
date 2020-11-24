@@ -22,7 +22,7 @@ const Canvas = props => {
                         "value": 250
                     },
                     "size": {
-                        "value": 10,
+                        "value": 20,
                         "random": true,
 	                    "anim": {
 	                    "speed": 5,

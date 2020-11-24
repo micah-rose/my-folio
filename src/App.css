@@ -67,7 +67,7 @@ p {
 .picture {
   float: left; 
   margin: auto;
-  /* margin-left: 75px; DON'T THINK I NEED THIS*/
+  margin-left: 75px;
 }
 
 .picture svg {
@@ -77,6 +77,7 @@ p {
 
 .info h1 {
   font-size: 70px;
+  font-weight: bold;
 }
 
 .info h3 {
@@ -90,7 +91,8 @@ p {
 .header-text {
   display: inline-block;
   margin-left: 30px;
-  border: solid 2px yellow;
+  padding: 20px;
+  width: 60%;
 }
 
 .particles {
@@ -102,24 +104,19 @@ p {
 
 #header-content {
   position: absolute;
-  margin: auto;
-  width: 100%;
-  align-items: center;
-  border: solid 2px green;
+  margin: 100px;
+  width: 90%;
 }
 
-/* .header {
-  /* height: 911px; */
-  /* position: relative; DON'T THINK I NEED THIS*/
-/* } */ 
-
 .header-msg {
-  font-size: 250px;
+  font-size: 300px;
 }
 
 .intro {
-  border: solid 2px red;
-  width: 900px;
+  /* border: solid 2px red; */
+  text-align: center;
+  margin: auto;
+  background-color: rgb(211,211,211, 0.6);
 }
 
 .intro p {
@@ -127,22 +124,27 @@ p {
 }
 
 @media (max-width: 600px) {  /* THIS IS SO THE CONTENT LOOKS PRESENTABLE ON A MOBILE DEVICE*/
-  /* .header {
-    height: 100%;
-  } */
+
+  #header-content {
+    margin: auto;
+    width: 100%;
+  }
   
   .header-msg{
     font-size: 70px;
     width: 50%;
-    margin: 0;
+    margin: auto;
   }
 
   .header-text {
     margin-left: 0px;
+    padding: 0;
+    width: 95%;
   }
 
   .picture {
     margin: auto;
+    margin-left: 0;
     width: 100%;
   }
 
@@ -164,8 +166,8 @@ p {
   }
 
   .intro p {
-    width: 50%;
-    font-size: 17px;
+    margin: auto;
+    font-size: 16px;
   }
 }
 
