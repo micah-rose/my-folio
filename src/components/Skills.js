@@ -78,7 +78,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <br />
-                <p style={{fontSize:"25px", marginBottom: "15px"}}>Here are some projects I wrote in Java and converted in JavaScript.</p>
+                <p style={{fontSize:"25px", marginBottom: "15px"}}>Here are some projects I wrote in Java and converted to JavaScript.</p>
                 <p>---Insert project links---</p>
             </div>
         </>
