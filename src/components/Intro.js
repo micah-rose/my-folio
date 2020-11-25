@@ -16,7 +16,7 @@ const Intro = () => {
                     intuitive, fun, and relevant to modern technology. 
                 </p>
                 <br />
-                <p>Fun Fact: the particle component you see in the background was inspired by a pair of yoga pants.</p>
+                <p className="fun-fact">Fun Fact: the particle component you see in the background was inspired by a pair of yoga pants.</p>
             </div>
         </>
     )

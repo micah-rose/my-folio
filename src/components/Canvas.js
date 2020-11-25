@@ -1,9 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
-// import Picture from '../components/Picture';
-// import Intro from '../components/Intro';
-// import HeaderMsg from '../components/HeaderMsg';
 
 const Canvas = props => {
 

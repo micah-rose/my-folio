@@ -59,6 +59,7 @@ p {
 .navbar-nav li a:hover, .navbar-brand:hover {
   color: #5a2e3e !important;
   font-weight: bold;
+  font-size: 23px;
 }
 
 
@@ -359,13 +360,13 @@ p {
   font-size: 25px;
 }
 
-.my-story {
+.story-p {
   display: inline-block;
   width: 70%;
   margin: auto;
 }
 
-.my-story p {
+.story-p p {
   font-size: 23px;
   text-align: justify;
 }
@@ -396,20 +397,47 @@ h2 {
   font-size: 25px;
 }
 
+.my-story a h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
 .col-md-4 a:link, 
 .col-md-4 a:visited, 
 .col-sm-4 a:link, 
-.col-sm-4 a:visited{
+.col-sm-4 a:visited,
+.my-story a:link,
+.my-story a:visited{
     color: black;
+    text-decoration: none;
 }
 
 .col-md-4 a:hover, 
-.col-sm-4 a:hover {
+.col-sm-4 a:hover,
+.my-story a:hover {
   color: #5a2e3e !important;
   font-weight: bold;
   text-decoration: none;
 }
 
-#about {
-  overflow: hidden;
+.fun-fact{
+  color: #AEE0DC; 
+  font-weight: bold;
+}
+
+.about-h3 {
+  font-size: 50px; 
+  text-align: left; 
+  margin-left: 100px;
+}
+
+.about-content {
+  width: 80%; 
+  margin: auto; 
+  background-color: rgb(211,211,211, 0.6);
+  padding: 10px;
+}
+
+.about-content p {
+  font-size: 25px;
 }

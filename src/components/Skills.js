@@ -9,7 +9,8 @@ const Skills = () => {
         <>
             <div className="container">
             <div className="skills">
-                <h2 id="skills">Skills & Projects</h2>
+            <h2 style={{fontSize: "80px"}}>Skills & Projects</h2>
+            <hr />
                 <u style={{
                         textDecoration: "none", 
                         listStyleType: "none", 
