@@ -16,7 +16,6 @@ const Intro = () => {
                 </p>
                 <br />
                 <p>Fun Fact: the particle component you see above was inspired by a pair of yoga pants.</p>
-                <br />
             </div>
         </>
     )
