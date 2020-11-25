@@ -67,11 +67,11 @@ p {
 .picture {
   float: left; 
   margin: auto;
-  margin-left: 75px;
+  margin-left: 50px;
 }
 
 .picture svg {
-  width: 500px;
+  width: 475px;
   height: 100%;
 }
 
@@ -109,7 +109,7 @@ p {
 }
 
 .header-msg {
-  font-size: 300px;
+  font-size: 220px;
 }
 
 .intro {
@@ -120,133 +120,61 @@ p {
 }
 
 .intro p {
-  font-size: 25px;
+  font-size: 24px;
 }
 
-@media (max-width: 600px) {  /* THIS IS SO THE CONTENT LOOKS PRESENTABLE ON A MOBILE DEVICE*/
-
-  #header-content {
-    margin: auto;
-    width: 100%;
-  }
-
-  .header-text {
-    align-items: center;
-  }
-  
-  .header-msg{
-    font-size: 70px;
-    width: 50%;
-    padding-bottom: 10px;
-    margin: auto;
-  }
-
-  .header-text {
-    margin-left: 0px;
-    padding: 0;
-    width: 95%;
-  }
-
-  .picture {
-    margin: auto;
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .picture svg {
-    width: 350px;
-    height: 100%;
-  }
-
-  .info h1 {
-    font-size: 50px;
-  }
-  
-  .info h3 {
-    font-size: 25px;
-  }
-  
-  .info p {
-    font-size: 20px;
-  }
-
-  .intro p {
-    margin: auto;
-    font-size: 15px;
-  }
-}
-
-/* ALL THIS BELOW WILL BE LOOKED AT LATER */
 @media (max-width: 1808px) {  
   .header-msg{
-    font-size: 265px
+    font-size: 220px
   }
 
   .picture {
-
     margin-left: 0px
   }
   
   .intro p {
-    font-size: 24px;
+    font-size: 23px;
   }
 
-  svg {
-    width: 500;
-  }
 }
 
 @media (max-width: 1752px) {
-  .header-msg{
-    font-size: 260px
-  }
-
-  .intro p {
-    font-size: 23px;
-  }
-}
-
-@media (max-width: 1685px) {
-  .header-msg{
-    font-size: 250px
-  }
-}
-
-@media (max-width: 1599px){
-  .header-msg{
-    font-size: 230px
-  }
-}
-
-@media (max-width: 1520px) { 
   .picture svg {
     width: 450px;
     height: 100%;
   }
-}
 
-@media (max-width: 1490px) { 
-    .header-msg{
+  .header-msg{
     font-size: 200px
   }
-
-  .intro p {
-    font-size: 20px;
-  }
 }
 
-@media (max-width: 1382px) {
-  .header-msg{
-    font-size: 175px
-  }
-
+@media (max-width: 1599px){
   .picture svg {
     width: 400px;
     height: 100%;
   }
 
+}
+
+@media (max-width: 1490px) { 
+    .header-msg{
+    font-size: 150px
+  }
+
+  .intro p {
+    font-size: 20px;
+  }
+
   .info h1 {
     font-size: 60px;
+  }
+}
+
+@media (max-width: 1382px) {
+  .picture svg {
+    width: 400px;
+    height: 100%;
   }
   
   .info h3 {
@@ -258,18 +186,18 @@ p {
   }
 }
 
-@media (max-width: 1242px) {
+@media (max-width: 1244px) {
   .header-msg{
     font-size: 125px
-  }
-
-  .picture {
-    margin-left: 0px;
   }
 
   .picture svg {
     width: 350px;
     height: 100%;
+  }
+
+  .intro p {
+    font-size: 18px;
   }
 
 }
@@ -280,6 +208,11 @@ p {
     width: 100%;
   }
 
+  .picture svg {
+    width: 305px;
+    height: 100%;
+  }
+
   .picture {
     margin: 0 auto;
     width: 100%;
@@ -287,10 +220,80 @@ p {
 
   .header-text {
     align-items: center;
+    width: 90%;
   }
 
    .info h1 {
+    font-size: 45px;
+  }
+  
+  .info h3 {
+    font-size: 25px;
+  }
+  
+  .info p {
+    font-size: 20px;
+  }
+
+  .intro p {
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .header-msg{
+    font-size: 65px;
+    width: 50%;
+    padding-bottom: 10px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 985px) {
+  #header-content {
+    margin: auto;
+    width: 100%;
+  }
+
+  .header-msg{
+    font-size: 60px;
+    width: 50%;
+    padding-bottom: 10px;
+    margin: auto;
+  }
+  
+  .header-text {
+    margin-left: 0px;
+    padding: 0;
+    width: 95%;
+  }
+
+  .intro p {
+    margin: auto;
+    font-size: 17px;
+  }
+
+}
+
+@media (max-width: 600px) { 
+  #header-content {
+    margin: auto;
+    width: 100%;
+  }
+  
+  .header-msg{
     font-size: 50px;
+    width: 50%;
+    padding-bottom: 10px;
+    margin: auto;
+  }
+
+  .picture svg {
+    width: 305px;
+    height: 100%;
+  }
+
+  .info h1 {
+    font-size: 40px;
   }
   
   .info h3 {
@@ -305,29 +308,35 @@ p {
     margin: auto;
     font-size: 15px;
   }
+}
 
-  .header-msg{
-    font-size: 70px;
-    width: 50%;
-    padding-bottom: 10px;
-    margin: auto;
+@media (max-width: 530px){
+  .picture svg {
+    width: 280px;
+    height: 100%;
   }
 }
 
-@media (max-width: 865px) {
-  #header-content {
-    margin: auto;
-    width: 100%;
+@media (max-width: 476px){
+  .picture svg {
+    width: 260px;
+    height: 100%;
+  }
+
+  .info h1 {
+    font-size: 30px;
   }
   
-  /* .header-text {
-    align-items: center;
-    margin-left: 0px;
-  } */
-  .header-text {
-    margin-left: 0px;
-    padding: 0;
-    width: 95%;
+  .info h3 {
+    font-size: 20px;
+  }
+  
+  .info p {
+    font-size: 17px;
+  }
+
+  .header-msg {
+    font-size: 40px;
   }
 }
 
