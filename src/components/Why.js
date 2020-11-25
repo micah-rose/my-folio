@@ -23,7 +23,7 @@ const Why = () => {
             of "yes, this is right". My journey in tech began that spring of 2017 and I never
             looked back.</p>
             <br /> 
-            <p className="fun-fact">Fun Fact: my first step on my tech journey was ending a 6 year haitus by re-enrolling at the 
+            <p className="fun-fact">Fun Fact: the first step on my tech journey was ending a 6 year haitus by re-enrolling at the 
             local community college.</p>
         </div>
         </>
