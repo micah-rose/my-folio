@@ -353,6 +353,10 @@ p {
   font-size: 30px;
 }
 
+.hobby-story, .skills, .contact-me {
+  color: black;
+}
+
 .hobbies p, .skills p, .text-center {
   font-size: 25px;
 }

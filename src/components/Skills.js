@@ -8,8 +8,8 @@ const Skills = () => {
     return (
         <>
             <div className="container">
+            <div className="skills">
                 <h2 id="skills">Skills & Projects</h2>
-                <div className="skills">
                 <u style={{
                         textDecoration: "none", 
                         listStyleType: "none", 
@@ -27,7 +27,7 @@ const Skills = () => {
                     </u>
                 </div>
                 <br />
-                <h1 style={{fontWeight: "bold"}}>My Computer Science Projects</h1>
+                <h1 style={{fontWeight: "bold", color: "black"}}>My Computer Science Projects</h1>
                 <br />
                 <p style={{fontSize:"25px", marginBottom: "15px"}}>Click the below icons to display a list of courseworks for each section.</p>
                     <div class="row">

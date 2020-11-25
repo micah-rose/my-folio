@@ -5,14 +5,13 @@ import Story from '../components/Story';
 const AboutMe = () => {
     return (
         <>
+        <div className="hobby-story">
             <h2>About Me</h2>
-            <div className="hobby-story">
                 <Hobbies />
                 <br />
                 <Story />
                 <br />
-                <hr />
-            </div>
+        </div>
         </>
     )
 }
