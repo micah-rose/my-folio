@@ -9,7 +9,7 @@ const Who = () => {
 
             <div className="about-content">
             <img style={{
-                width: "234px",
+                width: "240px",
                 height: "auto",
                 float: "left",
                 margin: "auto",
