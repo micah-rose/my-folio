@@ -7,11 +7,17 @@ const Modal2 = () => {
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4><span class="glyphicon glyphicon-lock"></span>Project 2</h4>
+                  <h2>React Tetris</h2>
                 </div>
                 <div class="modal-body">
-                  <p>Details about Project 2.</p>
+                  <p>React Tetris was built to demonstrate using timeouts and intervals for a team 
+                    of developers. It uses hooks, mathematical logic, arrays, and styled components
+                    which brought me new insight on how to develop future projects. Although I had 
+                    followed an online tutorial, there was still a lot of challenge to complete this 
+                    game. My to do's for this project are to refactor the code to include a landing 
+                    page that will allow a player to choose their own theme, with different backgrounds 
+                    and colors, before starting a new game. Additionally I would like to add music
+                    that speeds up as a player advances levels.</p>
                 </div>
                 <div class="modal-footer">
                   <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" >

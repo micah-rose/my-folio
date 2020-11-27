@@ -2,6 +2,7 @@ import React from 'react';
 import Modal from '../components/Modal';
 import Modal2 from '../components/Modal2';
 import Modal3 from '../components/Modal3';
+import tetris  from '../images/tetris-icon.jpg';
 
 const What = () => {
     return (
@@ -69,12 +70,12 @@ const What = () => {
                 <Modal />
                 <div class="col-sm-4">
                   <div class="thumbnail">
-                    <img src="paris.jpg" alt="Project 2" />
-                    <p><strong>Project 2</strong></p>
+                    <img src={tetris} alt="React Tetris" />
+                    <p><strong>React Tetris</strong></p>
                     <button class="btn" data-toggle="modal" data-target="#myModalTwo">Project Details</button>
                     <a 
                         className="btn" 
-                        href="" 
+                        href="https://micah-rose.github.io/react-tetris/" 
                         target="_blank" 
                         rel="noreferrer">Visit Project</a>
                   </div>
