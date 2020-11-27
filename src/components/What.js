@@ -77,7 +77,7 @@ const What = () => {
                     <button class="btn" data-toggle="modal" data-target="#myModal">Project Details</button>
                     <a 
                         className="btn" 
-                        href="" 
+                        href="https://micah-rose.github.io/star-match/" 
                         target="_blank" 
                         rel="noreferrer">Visit Project</a>
                   </div>
@@ -98,12 +98,13 @@ const What = () => {
                 <Modal2 />
                 <div class="col-sm-4">
                   <div class="thumbnail">
-                    <img style={{width: "170px"}} src={weather} alt="Weather" />
+                    <img style={{width: "113px"}} src={weather} alt="Weather" />
                     <p><strong>Weather App</strong></p>
+                    <h1 style={{color: "red"}}><strong>UNDER CONSTRUCTION</strong></h1>
                     <button class="btn" data-toggle="modal" data-target="#myModalThree">Project Details</button>
                     <a 
                         className="btn" 
-                        href="" 
+                        href="https://micah-rose.github.io/js-weather-app/" 
                         target="_blank" 
                         rel="noreferrer">Visit Project</a>
                   </div>
