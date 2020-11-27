@@ -402,19 +402,16 @@ h2 {
   font-size: 60px;
 }
 
-.col-md-4 a:link, 
-.col-md-4 a:visited, 
-.col-sm-4 a:link, 
-.col-sm-4 a:visited,
-.my-story a:link,
-.my-story a:visited{
+.row a:link, 
+.row a:visited, 
+.row a:link, 
+.row a:visited{
     color: black;
     text-decoration: none;
 }
 
-.col-md-4 a:hover, 
-.col-sm-4 a:hover,
-.my-story a:hover {
+.row a:hover, 
+.row a:hover{
   color: #5a2e3e !important;
   font-weight: bold;
   text-decoration: none;
@@ -445,10 +442,24 @@ h2 {
 .course-buttons a {
   font-size: 40px;
   margin: 30px;
-  background-color: #C5AA74;
+  background-color:#5A2E3E;
   border: none;
 }
 
 .course-buttons a:hover{
-  background-color: #5A2E3E;
+  background-color:#5A2E3E;
+  color: #C5AA74;
+  font-weight: bold;
+}
+
+.projects button, .projects a {
+  color: black;
+  background-color: #C5AA74;
+  margin: 15px;
+  border: none;
+}
+
+.projects button:hover{
+  color: #5A2E3E;
+  font-weight: bold;
 }

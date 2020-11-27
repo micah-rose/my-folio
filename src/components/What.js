@@ -1,5 +1,7 @@
 import React from 'react';
 import Modal from '../components/Modal';
+import Modal2 from '../components/Modal2';
+import Modal3 from '../components/Modal3';
 
 const What = () => {
     return (
@@ -54,29 +56,43 @@ const What = () => {
             <div class="row text-center">
                 <div class="col-sm-4">
                   <div class="thumbnail">
-                    <img src="paris.jpg" alt="Paris" />
+                    <img src="paris.jpg" alt="Project 1" />
                     <p><strong>Project 1</strong></p>
-                    <p>Fri. 27 November 2015</p>
-                    <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                    <button class="btn" data-toggle="modal" data-target="#myModal">Project Details</button>
+                    <a 
+                        className="btn" 
+                        href="" 
+                        target="_blank" 
+                        rel="noreferrer">Visit Project</a>
                   </div>
                 </div>
                 <Modal />
                 <div class="col-sm-4">
                   <div class="thumbnail">
-                    <img src="newyork.jpg" alt="New York" />
+                    <img src="paris.jpg" alt="Project 2" />
                     <p><strong>Project 2</strong></p>
-                    <p>Sat. 28 November 2015</p>
-                    <button class="btn">Buy Tickets</button>
+                    <button class="btn" data-toggle="modal" data-target="#myModalTwo">Project Details</button>
+                    <a 
+                        className="btn" 
+                        href="" 
+                        target="_blank" 
+                        rel="noreferrer">Visit Project</a>
                   </div>
                 </div>
+                <Modal2 />
                 <div class="col-sm-4">
                   <div class="thumbnail">
-                    <img src="sanfran.jpg" alt="San Francisco" />
+                    <img src="paris.jpg" alt="Project 3" />
                     <p><strong>Project 3</strong></p>
-                    <p>Sun. 29 November 2015</p>
-                    <button class="btn">Buy Tickets</button>
+                    <button class="btn" data-toggle="modal" data-target="#myModalThree">Project Details</button>
+                    <a 
+                        className="btn" 
+                        href="" 
+                        target="_blank" 
+                        rel="noreferrer">Visit Project</a>
                   </div>
                 </div>
+                <Modal3 />
             </div>
             </div>
 
