@@ -445,4 +445,10 @@ h2 {
 .course-buttons a {
   font-size: 40px;
   margin: 30px;
+  background-color: #C5AA74;
+  border: none;
+}
+
+.course-buttons a:hover{
+  background-color: #5A2E3E;
 }

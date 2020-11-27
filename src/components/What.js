@@ -1,4 +1,5 @@
 import React from 'react';
+import Modal from '../components/Modal';
 
 const What = () => {
     return (
@@ -56,9 +57,10 @@ const What = () => {
                     <img src="paris.jpg" alt="Paris" />
                     <p><strong>Project 1</strong></p>
                     <p>Fri. 27 November 2015</p>
-                    <button class="btn">Buy Tickets</button>
+                    <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
                   </div>
                 </div>
+                <Modal />
                 <div class="col-sm-4">
                   <div class="thumbnail">
                     <img src="newyork.jpg" alt="New York" />
