@@ -3,7 +3,8 @@ import Modal from '../components/Modal';
 import Modal2 from '../components/Modal2';
 import Modal3 from '../components/Modal3';
 import tetris  from '../images/tetris-icon.jpg';
-import burger from '../images/burger-icon.png';
+import star from '../images/star-icon.png';
+import weather from '../images/weather-icon.png';
 
 const What = () => {
     return (
@@ -19,7 +20,7 @@ const What = () => {
                 certifications to strengthen my skill set.
                 </p>
                 <br />
-                <h3 style={{fontWeight: "bold"}}>Some of the skills I have gained over the past 3 years are:</h3>
+                <h3 style={{fontWeight: "bold", color: "#5A2E3E", fontSize: "30px"}}>Some of the skills I have gained over the past 3 years are:</h3>
                 <u style={{
                         textDecoration: "none", 
                         listStyleType: "none", 
@@ -33,7 +34,7 @@ const What = () => {
                         <li>Microsoft SQL Server</li>
                 </u>
                 <br />
-                <h3 style={{fontWeight: "bold"}}>The skills I am currently working on/aspire to obtain:</h3>
+                <h3 style={{fontWeight: "bold", color: "#5A2E3E", fontSize: "30px"}}>The skills I am currently working on/aspire to obtain:</h3>
                 <u style={{
                         textDecoration: "none", 
                         listStyleType: "none", 
@@ -49,17 +50,30 @@ const What = () => {
                 <p>I still have a lot to learn, but I am determined to be a knowledgeable engineer and have made 
                 it a goal to commit code regularly. This page displays some of the "whats" I've been working on 
                 and I am excited to share these projects with you. I hope they properly showcase my abilties as a 
-                software engineer. As I grow within my craft, so will the content on this page. Afterall... practice 
-                doesn't make perfect, but practice does make PROGRESS.
+                software engineer. However, as I grow within my craft, so will the content on this page. It is my
+                ambition to take what I've learned from these smaller projects and advance to developing full 
+                production applications. Afterall... practice doesn't make perfect, but practice does make PROGRESS.
                 </p>
             </div>
             <br />
             <div className="projects">
             <div class="row text-center">
-                <div class="col-sm-4">
+                {/* <div class="col-sm-4">
                   <div class="thumbnail">
                     <img style={{width: "170px"}} src={burger} alt="Burger" />
                     <p><strong>Burger Builder</strong></p>
+                    <button class="btn" data-toggle="modal" data-target="#myModal">Project Details</button>
+                    <a 
+                        className="btn" 
+                        href="https://github.com/micah-rose/burger-builder-rematch" 
+                        target="_blank" 
+                        rel="noreferrer">Visit Project</a>
+                  </div>
+                </div> */}
+                <div class="col-sm-4">
+                  <div class="thumbnail">
+                    <img style={{width: "170px"}} src={star} alt="Star" />
+                    <p><strong>Star Match</strong></p>
                     <button class="btn" data-toggle="modal" data-target="#myModal">Project Details</button>
                     <a 
                         className="btn" 
@@ -84,8 +98,8 @@ const What = () => {
                 <Modal2 />
                 <div class="col-sm-4">
                   <div class="thumbnail">
-                    <img src="paris.jpg" alt="Project 3" />
-                    <p><strong>Project 3</strong></p>
+                    <img style={{width: "170px"}} src={weather} alt="Weather" />
+                    <p><strong>Weather App</strong></p>
                     <button class="btn" data-toggle="modal" data-target="#myModalThree">Project Details</button>
                     <a 
                         className="btn" 
