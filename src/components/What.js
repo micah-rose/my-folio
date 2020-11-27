@@ -7,19 +7,48 @@ const What = () => {
             <br />
             <div className="about-content">
             <div className="what">
-                <p>Diving head first into the tech world was both scary and exhilarating, but it has
+                <p>Diving head first into the tech world was both scary and exhilarating for me, but it has
                 also been the most fun. There's this overwhelming sense of relief knowing that the career 
-                choice you've made is one you genuinely enjoy and feel passionate about. 
+                choice you've made is one you genuinely enjoy and feel passionate about. Since completeing
+                my Associate's degree I have continued my education through online tutorials and 
+                certifications to strengthen my skill set.
                 </p>
                 <br />
-                <p>Some of the skills I have gained over the years are:</p>
+                <h3 style={{fontWeight: "bold"}}>Some of the skills I have gained over the past 3 years are:</h3>
+                <u style={{
+                        textDecoration: "none", 
+                        listStyleType: "none", 
+                        fontSize: "23px"}}
+                >
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>HTML & CSS</li>
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>Microsoft SQL Server</li>
+                </u>
                 <br />
-                <p>This page displays some of the "whats" I've been working on and the goals I have set 
-                for myself. I am excited to share these projects with you (I've chosen some of my recent 
-                favorites) and I hope they properly showcase my abilties as a software engineer. 
+                <h3 style={{fontWeight: "bold"}}>The skills I am currently working on/aspire to obtain:</h3>
+                <u style={{
+                        textDecoration: "none", 
+                        listStyleType: "none", 
+                        fontSize: "23px"}}
+                >
+                        <li>Node</li>
+                        <li>MERN Stack</li>
+                        <li>Linux Administration</li>
+                        <li>DevOps Processes</li>
+                        <li>Python</li>
+                </u>
+                <br />
+                <p>I still have a lot to learn, but I am determined to be a knowledgeable engineer and have made 
+                it a goal to commit code regularly. This page displays some of the "whats" I've been working on 
+                and I am excited to share these projects with you. I hope they properly showcase my abilties as a 
+                software engineer. As I grow within my craft, so will the content on this page. Afterall... practice 
+                doesn't make perfect, but practice does make PROGRESS.
                 </p>
             </div>
-
+            <br />
             <div className="projects">
             <div class="row text-center">
                 <div class="col-sm-4">
@@ -67,6 +96,8 @@ const What = () => {
                 target="_blank" 
                 rel="noreferrer">CSIS 2440</a>
             </div>
+            <br />
+            <p className="fun-fact">Fun Fact: in the 3rd grade I accidentally split a kid's head open with my face.</p>
             </div> 
         </>
     )

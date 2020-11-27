@@ -441,3 +441,8 @@ h2 {
 .about-content p {
   font-size: 25px;
 }
+
+.course-buttons a {
+  font-size: 40px;
+  margin: 30px;
+}
