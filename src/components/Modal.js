@@ -7,11 +7,10 @@ const Modal = () => {
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4><span class="glyphicon glyphicon-lock"></span>Project 1</h4>
+                <h2>Burger Builder</h2>
                 </div>
                 <div class="modal-body">
-                  <p>Details about Project 1.</p>
+                  <p>Details about Burger Builder.</p>
                 </div>
                 <div class="modal-footer">
                   <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" >

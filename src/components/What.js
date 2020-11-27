@@ -3,6 +3,7 @@ import Modal from '../components/Modal';
 import Modal2 from '../components/Modal2';
 import Modal3 from '../components/Modal3';
 import tetris  from '../images/tetris-icon.jpg';
+import burger from '../images/burger-icon.png';
 
 const What = () => {
     return (
@@ -57,8 +58,8 @@ const What = () => {
             <div class="row text-center">
                 <div class="col-sm-4">
                   <div class="thumbnail">
-                    <img src="paris.jpg" alt="Project 1" />
-                    <p><strong>Project 1</strong></p>
+                    <img style={{width: "170px"}} src={burger} alt="Burger" />
+                    <p><strong>Burger Builder</strong></p>
                     <button class="btn" data-toggle="modal" data-target="#myModal">Project Details</button>
                     <a 
                         className="btn" 
@@ -70,7 +71,7 @@ const What = () => {
                 <Modal />
                 <div class="col-sm-4">
                   <div class="thumbnail">
-                    <img src={tetris} alt="React Tetris" />
+                    <img style={{padding: "22px"}} src={tetris} alt="Tetris" />
                     <p><strong>React Tetris</strong></p>
                     <button class="btn" data-toggle="modal" data-target="#myModalTwo">Project Details</button>
                     <a 
