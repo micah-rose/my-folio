@@ -10,6 +10,7 @@ const Contact = () => {
             <iframe src="https://giphy.com/embed/8Bl38gdtUK7WDdi59y" 
             width="480" 
             height="480" 
+            margin="auto"
             frameBorder="0" 
             class="giphy-embed" 
             allowFullScreen></iframe><p>
