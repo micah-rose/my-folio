@@ -16,6 +16,7 @@ const Why = () => {
             }}
             src={pika}
             alt="Pika" />
+            <br />
             <p>So why tech? Well, like so many of us, I had a moment where I realized there wasn't a role within my department
             that I was inspired to obtain. I felt stuck and began to feel like I could be making a difference elsewhere. That's 
             when I discovered code and developing software. Suddenly, there was no ceiling or limitations to how much of an impact 
