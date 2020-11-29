@@ -13,6 +13,7 @@ function App() {
         <div>
           <Nav />
           <Switch>
+                <Route exact component={Header} path="/" />
                 <Route exact component={Header} path="/my-folio" />
                 <Route exact component={AboutMe} path="/about" />
                 <Route exact component={Skills} path="/skills" />

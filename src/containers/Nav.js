@@ -15,7 +15,7 @@ const Nav = () => {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                    <Link className="navbar-brand" to="/">MY FOLIO</Link>
+                    <Link className="navbar-brand" to="/my-folio">MY FOLIO</Link>
                 </div>
                     <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="nav navbar-nav navbar-right">
