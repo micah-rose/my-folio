@@ -7,7 +7,8 @@ import Canvas from '../components/Canvas';
 const Header = () => {
     return (
     <>
-    <header className="header">
+    <div className="header">
+    {/* <header className="header"> */}
         <Canvas />
         <div className="container-fluid bg-1 text-center" id="header-content">
             <Picture />
@@ -16,7 +17,8 @@ const Header = () => {
                 <Intro />
             </div>
         </div>
-    </header>
+    {/* </header> */}
+    </div>
     </>
     )
 }

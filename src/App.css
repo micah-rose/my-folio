@@ -342,6 +342,29 @@ p {
   }
 }
 
+@media (max-width: 377px){
+  .picture svg {
+    width: 220px;
+    height: 100%;
+  }
+
+  .info h1 {
+    font-size: 25px;
+  }
+  
+  .info h3 {
+    font-size: 17px;
+  }
+  
+  .info p {
+    font-size: 15px;
+  }
+
+  .header-msg {
+    font-size: 30px;
+  }
+}
+
 
 /* Page Content ***************************************************************************************/
 .item h4{
