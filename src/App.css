@@ -104,6 +104,11 @@ p {
   position: absolute;
 }
 
+.header { /* Trying to figure out why the landing page doesn't scale like the rest of the portfolio*/
+  margin: auto;
+  width: 100%;
+}
+
 #header-content {
   position: absolute;
   margin: 100px;
