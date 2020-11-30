@@ -7,13 +7,7 @@ const Where = () => {
             <h3 className="about-h3">W H E R E</h3>
             <br />
             <div className="about-content">
-            <img style={{
-                width: "240px",
-                height: "auto",
-                float: "left",
-                margin: "auto",
-                paddingRight: "10px"
-            }}
+            <img className="img-left"
             src={title}
             alt="Title" />
             <p>The last 3 years I have been dedicated to gaining proficient level knowledge in full stack technologies and finding 

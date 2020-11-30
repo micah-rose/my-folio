@@ -7,13 +7,7 @@ const Why = () => {
         <h3 className="about-h3">W H Y</h3>
         <br />
         <div className="about-content">
-        <img style={{
-                width: "240px",
-                height: "auto",
-                float: "right",
-                margin: "auto",
-                paddingLeft: "10px"
-            }}
+        <img className="img-right"
             src={pika}
             alt="Pika" />
             <br />

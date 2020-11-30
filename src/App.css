@@ -319,6 +319,19 @@ h2 {
   margin: auto; 
   background-color: rgb(211,211,211, 0.6);
   padding: 20px;
+  padding-bottom: 65px;
+}
+
+@media (max-width: 1775px){
+  .about-content {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 1525px){
+  .about-content {
+    padding-bottom: 10px;
+  }
 }
 
 .about-content p {
@@ -367,5 +380,29 @@ h2 {
   iframe {
     width: 250px ;
     height: 250px;
+  }
+}
+
+.img-left {
+  width: 285px;
+  height: auto;
+  float: left;
+  margin: auto;
+  padding-right: 10px;
+}
+
+.img-right {
+  width: 285px;
+  height: auto;
+  float: right;
+  margin: auto;
+  padding-left: 10px;
+}
+
+@media (max-width: 520px){
+  .img-left, .img-right {
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px;
   }
 }

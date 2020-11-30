@@ -8,13 +8,7 @@ const Who = () => {
             <br />
 
             <div className="about-content">
-            <img style={{
-                width: "240px",
-                height: "auto",
-                float: "left",
-                margin: "auto",
-                paddingRight: "10px"
-            }}
+            <img className="img-left"
             src={about}
             alt="About" />
             <p>Hello there!! My name is Micah and I am the junior software engineer who built this site. I am mama to a beautiful 
