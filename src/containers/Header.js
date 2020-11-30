@@ -8,7 +8,6 @@ const Header = () => {
     return (
     <>
     <div className="header">
-    {/* <header className="header"> */}
         <Canvas />
         <div className="container-fluid bg-1 text-center" id="header-content">
             <Picture />
@@ -17,7 +16,6 @@ const Header = () => {
                 <Intro />
             </div>
         </div>
-    {/* </header> */}
     </div>
     </>
     )

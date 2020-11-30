@@ -104,13 +104,13 @@ p {
   position: absolute;
 }
 
-.header { /* Trying to figure out why the landing page doesn't scale like the rest of the portfolio*/
+.header { 
   margin: auto;
   width: 100%;
 }
 
 #header-content {
-  position: absolute;
+  position: relative;
   margin: 100px;
   width: 90%;
 }
@@ -313,7 +313,7 @@ p {
 
   .intro p {
     margin: auto;
-    font-size: 15px;
+    font-size: 25px;
   }
 }
 
