@@ -376,10 +376,38 @@ h2 {
   }
 }
 
-@media (max-width: 395px) { 
+@media (max-width: 420px) { 
+  iframe {
+    width: 270px ;
+    height: 270px;
+  }
+}
+
+@media (max-width: 390px) { 
   iframe {
     width: 250px ;
     height: 250px;
+  }
+}
+
+@media (max-width: 360px) { 
+  iframe {
+    width: 230px ;
+    height: 230px;
+  }
+}
+
+@media (max-width: 336px) { 
+  iframe {
+    width: 200px ;
+    height: 200px;
+  }
+}
+
+@media (max-width: 290px) { 
+  iframe {
+    width: 175px ;
+    height: 175px;
   }
 }
 
