@@ -20,7 +20,8 @@ const What = () => {
                 certifications to strengthen my skill set.
                 </p>
                 <br />
-                <h3 style={{fontWeight: "bold", color: "#5A2E3E", fontSize: "30px"}}>Some of the skills I have gained over the past 3 years are:</h3>
+                <h3 style={{fontWeight: "bold", color: "#5A2E3E", fontSize: "30px"}}>
+                  Some of the skills I have gained over the past 3 years are:</h3>
                 <u style={{
                         textDecoration: "none", 
                         listStyleType: "none", 
@@ -34,7 +35,8 @@ const What = () => {
                         <li>Microsoft SQL Server</li>
                 </u>
                 <br />
-                <h3 style={{fontWeight: "bold", color: "#5A2E3E", fontSize: "30px"}}>The skills I am currently working on/aspire to obtain:</h3>
+                <h3 style={{fontWeight: "bold", color: "#5A2E3E", fontSize: "30px"}}>
+                  The skills I am currently working on/aspire to obtain:</h3>
                 <u style={{
                         textDecoration: "none", 
                         listStyleType: "none", 
@@ -57,7 +59,7 @@ const What = () => {
             </div>
             <br />
             <div className="projects">
-            <div class="row text-center">
+            <div className="row text-center">
                 {/* <div class="col-sm-4">
                   <div class="thumbnail">
                     <img style={{width: "170px"}} src={burger} alt="Burger" />
@@ -70,11 +72,11 @@ const What = () => {
                         rel="noreferrer">Visit Project</a>
                   </div>
                 </div> */}
-                <div class="col-sm-4">
-                  <div class="thumbnail">
+                <div className="col-sm-4">
+                  <div className="thumbnail">
                     <img style={{width: "170px"}} src={star} alt="Star" />
                     <p><strong>Star Match</strong></p>
-                    <button class="btn" data-toggle="modal" data-target="#myModal">Project Details</button>
+                    <button className="btn" data-toggle="modal" data-target="#myModal">Project Details</button>
                     <a 
                         className="btn" 
                         href="https://micah-rose.github.io/star-match/" 
@@ -83,11 +85,11 @@ const What = () => {
                   </div>
                 </div>
                 <Modal />
-                <div class="col-sm-4">
-                  <div class="thumbnail">
+                <div className="col-sm-4">
+                  <div className="thumbnail">
                     <img style={{padding: "22px"}} src={tetris} alt="Tetris" />
                     <p><strong>React Tetris</strong></p>
-                    <button class="btn" data-toggle="modal" data-target="#myModalTwo">Project Details</button>
+                    <button className="btn" data-toggle="modal" data-target="#myModalTwo">Project Details</button>
                     <a 
                         className="btn" 
                         href="https://micah-rose.github.io/react-tetris/" 
@@ -96,12 +98,12 @@ const What = () => {
                   </div>
                 </div>
                 <Modal2 />
-                <div class="col-sm-4">
-                  <div class="thumbnail">
+                <div className="col-sm-4">
+                  <div className="thumbnail">
                     <img style={{width: "113px"}} src={weather} alt="Weather" />
                     <p><strong>Weather App</strong></p>
                     <h1 style={{color: "red"}}><strong>UNDER CONSTRUCTION</strong></h1>
-                    <button class="btn" data-toggle="modal" data-target="#myModalThree">Project Details</button>
+                    <button className="btn" data-toggle="modal" data-target="#myModalThree">Project Details</button>
                     <a 
                         className="btn" 
                         href="https://micah-rose.github.io/js-weather-app/" 
