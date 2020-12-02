@@ -9,7 +9,9 @@ const Header = () => {
     <>
     <div className="header">
         <Canvas />
-        <div className="container-fluid bg-1 text-center" id="header-content">
+        <div 
+            className="container-fluid bg-1 text-center" 
+            id="header-content">
             <Picture />
             <div className="header-text">
                 <HeaderMsg />

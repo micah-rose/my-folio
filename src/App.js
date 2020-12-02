@@ -3,8 +3,8 @@ import {Route, Switch, BrowserRouter as Router} from 'react-router-dom';
 import Nav from './containers/Nav';
 import Header from './containers/Header';
 import AboutMe from './containers/AboutMe';
-import Skills from './components/Skills';
-import Contact from './components/Contact';
+import Skills from './containers/Skills';
+import Contact from './containers/Contact';
 
 function App() {
   return (

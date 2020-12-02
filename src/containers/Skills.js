@@ -1,5 +1,5 @@
 import React from 'react';
-import What from './What';
+import What from '../components/What';
 
 
 const Skills = () => {
