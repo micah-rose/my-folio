@@ -18,7 +18,7 @@ const Where = () => {
             that change in their life.
             </p>
             <br />
-            <p className="fun-fact">Fun Fact: I have a love/hate relationship with Java.</p>
+            <p className="fun-fact">Fun Fact: I bought my first home when I was 22 years old.</p>
         </div>
         </>
     )
