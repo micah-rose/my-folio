@@ -14,7 +14,7 @@ const InputForm = () => {
                 </div>
                 <textarea className="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
                 <div className="row">
-                  <div className="col-md-12 form-group">
+                  <div className="col-md-12 form-group" style={{padding: "10px"}}>
                     <button className="btn pull-right" type="submit">Send</button>
                   </div>
                 </div>

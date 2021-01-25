@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileLinks from '../components/ProfileLinks';
-import ThankYou from '../components/ThankYou';
+import Feedback from '../components/InputForm';
 
 const Contact = () => {
     return (
@@ -8,8 +8,7 @@ const Contact = () => {
           <h2 style={{fontSize: "80px"}}>Contact</h2>
             <hr />
           <div className="about-content">
-            <ThankYou />
-            <br />
+            <Feedback />
             <ProfileLinks />
             </div>
         </>
